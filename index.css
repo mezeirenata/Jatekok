@@ -64,3 +64,18 @@ p{
     text-decoration:none;
 
 }
+.tortenetkep{
+    float:right;
+    padding: 10px;
+    border:3px solid greenyellow;
+    width:200px;
+}
+.tortenetkepszoveg{
+    position:relative;
+    left:10px;
+    right: 10px;
+    top:5px;
+    width:180px;
+    height:auto;
+
+}
