@@ -9,7 +9,10 @@ body {
     border:5px solid rgb(20, 22, 17);
     padding:10px;
     box-shadow:0px 0px 10px 0px black, 0px 0px 20px 0px black;
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;   
 }
 #topnav a{
     color:white;
