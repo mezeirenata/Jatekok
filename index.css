@@ -2,6 +2,7 @@ body {
     background-color:rgb(44, 49, 38);
     color:rgb(47, 196, 47);
     font-family:Arial, Helvetica, sans-serif;
+    transition:ease-in-out 0.3s;
    
 }
 #topnav{
@@ -145,4 +146,7 @@ p{
 }
 .legsikeresebbkep:hover img{
     cursor:pointer;
+}
+.legsikeresebbalairas td:hover{
+color:white;
 }
