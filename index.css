@@ -55,9 +55,9 @@ body {
 .focim span:hover{
     font-size:105px;
     transition: ease-in-out 0.3s;
-    box-shadow:0px 0px 10px 0px rgb(47, 196, 47), 0px 0px 20px 0px rgb(47, 196, 47);
+    box-shadow:0px 0px 10px 0px rgb(247, 0, 255), 0px 0px 20px 0px rgb(247, 0, 255);
    
-    background-color:rgb(95, 5, 180);
+    background-color:rgb(86, 11, 121);
     color:rgb(255, 255, 255);
     border:3px solid rgba(0, 0, 0, 0);
 
@@ -87,22 +87,62 @@ p{
 }
 .h2fooldal{
     font-size:40px;
-    margin-left:325px;
+    
 }
 .azoldalrolfooldal{
-   
+    text-align:center;
     font-size:35px;
-    
-    text-align:left;
 }
 #azoldalrolfooldal{
     cursor:default;
     margin-left:25px;
     color:rgba(255, 255, 255, 0.61);
     background:rgba(0, 0, 0, 0.336);
+    width:fit-content;
+    text-align:center;
     
 }
 .felsoszegely{
-    width:100%;
+    width:102%;
     height:150px;
+    margin-left:-10px;
+    margin-right:-30px;
+}
+.legsikeresebbkep{
+    position:relative;
+    display:inline-block;
+    padding:15px;
+    font-size:20px;
+    
+}
+.legsikeresebbalairas{
+    display:none;
+    position:absolute;
+    background-color:rgb(21, 22, 19);
+    font-weight:bold;
+    margin-top:-10px;
+    word-spacing: 2px;
+    text-align:center;
+    padding-top:15px;
+    min-width:160px;
+    z-index:1;
+    box-shadow:0px 0px 10px 0px rgb(20, 22, 17), 0px 0px 20px 0px black;
+   transition:ease-in-out 0.3s;
+}
+.legsikeresebbkep:hover .legsikeresebbalairas{
+    display:block;
+    cursor:default;
+    transition:ease-in-out 0.3s;
+}
+.legsikeresebbalairas td{
+    padding-bottom:25px;
+    padding-right:20px;
+    
+    
+}
+.legsikeresebbkep img{
+    box-shadow:0px 0px 10px 0px rgb(20, 22, 17), 0px 0px 20px 0px black;
+}
+.legsikeresebbkep:hover img{
+    cursor:pointer;
 }
