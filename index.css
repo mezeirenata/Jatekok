@@ -37,6 +37,9 @@ body {
     margin-top:25px;
     margin-top:40px;
     margin-bottom:40px;
+    font-style:oblique;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .focim span{
@@ -49,6 +52,7 @@ body {
     padding-right:45px;
     transition: ease-in-out 0.3s;
     background-color: rgba(19, 19, 22, 0.37);
+    font-style:normal;
     font-family:cursive;
     cursor:pointer;
     box-shadow:0px 0px 10px 0px black, 0px 0px 20px 0px black;
@@ -58,7 +62,7 @@ body {
     transition: ease-in-out 0.3s;
     box-shadow:0px 0px 10px 0px rgb(247, 0, 255), 0px 0px 20px 0px rgb(247, 0, 255);
    
-    background-color:rgb(86, 11, 121);
+    background-color:rgba(86, 11, 121, 0.225);
     color:rgb(255, 255, 255);
     border:3px solid rgba(0, 0, 0, 0);
 
@@ -118,6 +122,10 @@ p{
 }
 .legsikeresebbalairas{
     display:none;
+    border:1px solid rgba(255, 255, 255, 0.148);
+    margin-right:13px;
+    margin-left:-1px;
+    width:fit-content;
     position:absolute;
     background-color:rgb(21, 22, 19);
     font-weight:bold;
@@ -140,6 +148,7 @@ p{
     padding-right:20px;
     
     
+    
 }
 .legsikeresebbkep img{
     box-shadow:0px 0px 10px 0px rgb(20, 22, 17), 0px 0px 20px 0px black;
@@ -149,4 +158,12 @@ p{
 }
 .legsikeresebbalairas td:hover{
 color:white;
+}
+.hatterkep1{
+    margin-bottom:-70px;
+    width:110%;
+    height:180px;
+    margin-left:-8px;
+    margin-right:-70px;
+    margin-top:-20px;
 }
