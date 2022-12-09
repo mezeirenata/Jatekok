@@ -21,7 +21,6 @@ body {
     font-size:22px;
     font-weight:bold;
     padding:15px;
-    transition:ease-in-out 0.3s;
 }
 #topnav a:hover{
     background-color:rgb(47, 196, 47);
