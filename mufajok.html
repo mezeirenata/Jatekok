@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="index.css">
 
     <style>
-        img {
+        .mufaj-kep2 {
             width: 400px;
+            height: 250px;
         }
 
-        .kep {
+        .mufaj-kep {
             display: flex;
             justify-content: flex-end;
-            flex-direction: column;
+            flex-direction: column-reverse;
             text-align: center;
         }
 
@@ -24,106 +25,116 @@
             max-width: 100rem;
             text-align: justify;
         }
+
+        .vege-div {
+            border: 40px solid rgb(44, 49, 38);
+        }
     </style>
 
 </head>
 
 <body>
 
-    <div id="topnav">
-        <a href="index.html">Kezdőlap</a>
-        <a href="jatek_tortenet.html">Játék történet</a>
-        <a href="onlinejatekok.html">Online játékok</a>
-        <a href="sikeres.html">Sikeres játékok</a>
-        <a href="speedrunok.html">Speedrunok</a>
-        <a href="videojatekok.html">Videójátékok</a>
-    </div>
-    <hr>
+<div id="topnav">
+    <a href="index.html">Kezdőlap</a>
+    <a href="jatek_tortenet.html">Történet</a>
+    <a href="onlinejatekok.html">Online játékok</a>
+    <a href="sikeres.html">Sikeres játékok</a>
+    <a href="speedrunok.html">Speedrunok</a>
+    <a href="videojatekok.html">Videójátékok</a>
+</div>
+<hr>
 
 
-    <h1>Műfajok</h1>
-    <p>Mint a média legtöbb formája. A videójátékok is különböző műfajokba sorolhatóak számos különböző jellemvonás
-        alapján, mint a játékmenet, a célok fajtái stb. A játékok fejlődésével a műfajok is változtak az idők folyamán,
-        ahogy új játékstílusok jöttek létre különböző tartalmakkal. A technikai lehetőségek bővülésével az évek során a
-        videójátékok készítésének költségei is egyre emelkedtek, egyre életszerűbb grafikus látvánnyal, a
-        történetmesélés és a játékmenet komplexitásával egyre kitolva az addig hagyományossá vált műfajok határait.</p>
-    <p>Előfordul hogy eddigiektől eltérő játékok különböző műfajokat kombinálnak, mint a TPS lövöldözést autóvezetéssel,
-        az akciót és a szerepjátékot, egy stratégiai játékban a valós idejű stratégiát csatákban és körökre osztott
-        stratégiát egy világtérképen.</p>
-    <p>A műfaj megnevezésénél általában az angol rövidítését használják.</p>
-    <ul>
-        <li>
-            <h2>Akció</h2>
-            <ul>
-                <li>
-                    <div class="li-elem">
-                        <h2>FPS</h2>
-                        <p>
-                            (First Person Shooter) vagy belső nézetű lövöldözős játék olyan lövöldözős videójáték, ahol
-                            a
-                            játékos az
-                            általa irányított figura szemszögéből látja a játékban történteket.
-                        </p>
-                        <div class="kep">
-                            <img src="images/fps.gif" alt="">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-elem">
-                        <h2>TPS</h2>
-                        <p>
-                            (Third-person shooter) külső nézetű lövöldözős játék, melyben az irányított karakternek
-                            általában
-                            fedezékről-fedezékre haladva kell leszámolnia ellenfeleivel.
-                        </p>
-                        <div class="kep">
-                            <img src="images/tps.jpg" alt="">
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <h2>Oldalnézetes akciójáték:</h2>
+<h1>Műfajok</h1>
+<p>Mint a média legtöbb formája. A videójátékok is különböző műfajokba sorolhatóak számos különböző jellemvonás
+    alapján, mint a játékmenet, a célok fajtái stb. A játékok fejlődésével a műfajok is változtak az idők folyamán,
+    ahogy új játékstílusok jöttek létre különböző tartalmakkal. A technikai lehetőségek bővülésével az évek során a
+    videójátékok készítésének költségei is egyre emelkedtek, egyre életszerűbb grafikus látvánnyal, a
+    történetmesélés és a játékmenet komplexitásával egyre kitolva az addig hagyományossá vált műfajok határait.</p>
+<p>Előfordul hogy eddigiektől eltérő játékok különböző műfajokat kombinálnak, mint a TPS lövöldözést autóvezetéssel,
+    az akciót és a szerepjátékot, egy stratégiai játékban a valós idejű stratégiát csatákban és körökre osztott
+    stratégiát egy világtérképen.</p>
+<p>A műfaj megnevezésénél általában az angol rövidítését használják.</p>
+<ul>
+    <li>
+        <h2>Akció</h2>
+        <ul>
+            <li>
+                <div class="li-elem">
+                    <h2>FPS</h2>
                     <p>
-                        Klasszikus, 2D-s megjelenítési módot használó játék.
+                        (First Person Shooter) vagy belső nézetű lövöldözős játék olyan lövöldözős videójáték, ahol
+                        a
+                        játékos az
+                        általa irányított figura szemszögéből látja a játékban történteket.
                     </p>
-                    <img src="images/asd.jpg" alt="">
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <h2>Ügyességi</h2>
-            <ul>
-                <li>
-                    <h2>Platformer:</h2>
+                    <div class="mufaj-kep">
+                        <img class="mufaj-kep2" src="images/fps.gif" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="li-elem">
+                    <h2>TPS</h2>
                     <p>
+                        (Third-person shooter) külső nézetű lövöldözős játék, melyben az irányított karakternek
+                        általában
+                        fedezékről-fedezékre haladva kell leszámolnia ellenfeleivel.
+                    </p>
+                    <div class="mufaj-kep">
+                        <img class="mufaj-kep2" src="images/tps.jpg" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h2>Oldalnézetes akciójáték:</h2>
+                <p>
+                    Klasszikus, 2D-s megjelenítési módot használó játék.
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/asd.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>
+        <h2>Ügyességi</h2>
+        <ul>
+            <li>
+                <h2>Platformer:</h2>
+                <p>
                     az irányított hősnek különböző akadályok (gyakran ellenfelek) legyőzésével és
                     platformok közti ugrálással / haladással kell eljutnia a pálya végéig. Az egyes pályák során
                     különböző
                     érméket, kincseket és egyéb gyűjtögetni valókat szedhetünk össze a magasabb pontszám érdekében.
-                    </p>
-                    <img src="images/platformer.jpg" alt="">
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h2>Kaland</h2>
-                    <p>
-                    </p>
-                    <img src="images/adventure.jpg" alt="">
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <h2>Szerepjátékok</h2>
-            <ul>
-                <li>
-                    <h2>MMORPG:</h2>
-                    <p>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/platformer.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h2>Kaland</h2>
+                <p>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/adventure.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>
+        <h2>Szerepjátékok</h2>
+        <ul>
+            <li>
+                <h2>MMORPG:</h2>
+                <p>
                     (Massively Multiplayer Online Role-Playing Game – nagyon sok szereplős online szerepjáték)
                     interneten,
                     online játszható szerepjáték. Sok ezer ember játszik egyszerre egy 2D vagy 3D világban, képességeket
@@ -131,55 +142,65 @@
                     tárháza
                     végtelen, de játékonként eltérő lehet. Legismertebbek a World of Warcraft, Lineage I/II, Guild Wars,
                     Roblox.
-                    </p>
-                    <img src="images/MMORPG.jpg" alt="">
-                </li>
-                <li>
-                    <h2>RPG:</h2>
-                    <p>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/MMORPG.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>RPG:</h2>
+                <p>
                     (Role-Playing Game) Az MMORPG-hez hasonló játékelemekkel és játékmenettel rendelkezik, ám ezt
                     legtöbbször
                     egyedül játszhatjuk offline módban (Pl. The Witcher sorozat), de akad néhány olyan is, ahol pár
                     barátunkkal
                     vagy random emberrel együtt online vagy akár offline co-op módban (Pl. Diablo 3)
-                    </p>
-                    <img src="images/diablo.jpg" alt="">
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <h2>Stratégiai játékok</h2>
-            <ul>
-                <li>
-                    <h2>Valós idejű stratégia:</h2>
-                    <p>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/diablo.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>
+        <h2>Stratégiai játékok</h2>
+        <ul>
+            <li>
+                <h2>Valós idejű stratégia:</h2>
+                <p>
                     (real time strategy, rövidítve RTS) valós időben zajlanak, a játékmenet folyamatos, az összes
                     játékos
                     bármikor adhat ki parancsokat, amelyek végrehajtása azonnal el is kezdődik. Az átlagos RTS-ekben a
                     fő
                     feladatok az erőforrások összegyűjtése, bázisok építése, technológia fejlesztése és az egységek
                     irányítása.
-                    </p>
-                    <img src="images/RTS.JPG" alt="">
-                </li>
-                <li>
-                    <h2>Valós idejű taktika</h2>
-                    <img src="images/valosideju.jpg" alt="">
-                </li>
-                <li>
-                    <h2>Körökre osztott stratégia:</h2>
-                    <p>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/RTS.JPG" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>Valós idejű taktika</h2>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/valosideju.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>Körökre osztott stratégia:</h2>
+                <p>
                     Például: Civilization IV
-                    </p>
-                    <img src="images/korokreosztott.jpg" alt="">
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul>
-        <li>
+                </p>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/korokreosztott.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>
         <h2>Menedzselős és szimulátor,</h2>
         <p>
             „Istenszimulátor”, városszimulátor: A valós idejű stratégiai játékokhoz
@@ -194,7 +215,9 @@
             meghatározott célt elérve. Korai istenszimulátornak tekinthető a Civilization, valamint a Sierra tipikus
             városszimulátor sorozata (Caesar sorozat, Pharaoh), illetve a Sim City sorozat.
         </p>
-        <img src="images/menedzselos.jpg" alt="">
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/menedzselos.jpg" alt="">
+        </div>
         <p>
             A hardvertechnológia csak az 1990-es évek közepére kezdte megközelíteni azt a számítási teljesítményt,
             hogy egy
@@ -210,78 +233,95 @@
             épülő
             Életjátéka.
         </p>
-        </li>
-    </ul>
-    <ul>
-        <li>
+    </li>
+</ul>
+<ul>
+    <li>
 
-            <h2>Logikai</h2>
-            <p>
-                („Puzzle”)
-            </p>
-        </li>
-    </ul>
+        <h2>Logikai</h2>
+        <p>
+            („Puzzle”)
+        </p>
+    </li>
+</ul>
 
-    <ul>
-        <li>
-            <h2>Szimulátor:</h2>
-            <p>
-                A játékosnak virtuális eszközöket, esetleg álltatokat (kecske) vagy dolgokat (kő) kell irányítania,
-                amelynek azonban
-                létezik megfelelője a valóságban is. A hangsúly az adott dolog valós tulajdonságain, a minél hűbb
-                modellezésen van.
-            </p>
-            <ul>
-                <li>
-                    <h2>Autószimulátorok</h2>
-                    <img src="images/autovezetoszim.jpg" alt="">
-                </li>
-                <li>
-                    <h2>Vasútszimulátorok</h2>
-                    <img src="images/vasutszim.jpg" alt="">
-                </li>
-                <li>
-                    <h2>Repülőgép-szimulátorok</h2>
-                    <img src="images/repuloszim.jpg" alt="">
-                </li>
-                <li>
-                    <h2>Tengeralattjáró-szimulátorok</h2>
-                    <img src="images/tengeralattjarao.jpg" alt="">
-                </li>
-            </ul>
-        </li>
-    </ul>
+<ul>
+    <li>
+        <h2>Szimulátor:</h2>
+        <p>
+            A játékosnak virtuális eszközöket, esetleg álltatokat (kecske) vagy dolgokat (kő) kell irányítania,
+            amelynek azonban
+            létezik megfelelője a valóságban is. A hangsúly az adott dolog valós tulajdonságain, a minél hűbb
+            modellezésen van.
+        </p>
+        <ul>
+            <li>
+                <h2>Autószimulátorok</h2>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/autovezetoszim.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>Vasútszimulátorok</h2>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/vasutszim.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>Repülőgép-szimulátorok</h2>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/repuloszim.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <h2>Tengeralattjáró-szimulátorok</h2>
+                <div class="mufaj-kep">
+                    <img class="mufaj-kep2" src="images/tengeralattjarao.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
 
-    <ul>
-        <li>
-            <h2>Sport</h2>
-            <img src="images/sportjatek.jpg" alt="">
-        </li>
-        <li>
-            <h2>Lexikális tudás alapú</h2>
-            <img src="images/honfoglalo.jpg" alt="">
-        </li>
-        <li>
-            <h2>Szerencsejáték</h2>
-        </li>
-        <li>
-            <h2> Brawl </h2>
-            (verekedős játékok pl.: Mortal Kombat)
-        </li>
-        <li>
-            <h2>Táblajátékok:</h2>
-            <p>
+<ul>
+    <li>
+        <h2>Sport</h2>
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/sportjatek.jpg" alt="">
+        </div>
+    </li>
+    <li>
+        <h2>Lexikális tudás alapú</h2>
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/honfoglalo.jpg" alt="">
+        </div>
+    </li>
+    <li>
+        <h2>Szerencsejáték</h2>
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/szerencsejatek.jpg" alt="">
+        </div>
+    </li>
+    <li>
+        <h2> Brawl </h2>
+        (verekedős játékok pl.: Mortal Kombat)
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/mortalkombat.jpg" alt="">
+        </div>
+    </li>
+    <li>
+        <h2>Táblajátékok:</h2>
+        <p>
             a valóságban is játszható játékok, mint a sakk, dáma elektronikus változatai.
             Lehetnek
             közelvalóságszerűek, vagy speciális effektekkel attól elrugaszkodottak (pl. animált, szétmálló bábuk).
-            </p>
-        </li>
-    </ul>
-
-
-
-
-
+        </p>
+        <div class="mufaj-kep">
+            <img class="mufaj-kep2" src="images/pummel.jpg" alt="">
+        </div>
+    </li>
+</ul>
+<div class="vege-div"></div>
 </body>
 
 </html>
