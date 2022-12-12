@@ -2,7 +2,7 @@ body {
     background-color:rgb(44, 49, 38);
     color:rgb(47, 196, 47);
     font-family:Arial, Helvetica, sans-serif;
-    transition:ease-in-out 0.3s;
+    
    
 }
 #topnav{
@@ -14,6 +14,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;   
+    transition:ease-in-out 0.3s;
 }
 #topnav a{
     color:white;
@@ -39,6 +40,7 @@ body {
     font-style:oblique;
     font-weight:bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:ease-in-out 0.3s;
 }
 
 .focim span{
@@ -55,6 +57,7 @@ body {
     font-family:cursive;
     cursor:pointer;
     box-shadow:0px 0px 10px 0px black, 0px 0px 20px 0px black;
+    transition:ease-in-out 0.3s;
 }
 .focim span:hover{
     font-size:105px;
@@ -118,7 +121,10 @@ p{
     display:inline-block;
     padding:15px;
     font-size:20px;
-    
+    transition:ease-in-out 0.3s;
+    margin-left:400px;
+
+   
 }
 .legsikeresebbalairas{
     display:none;
@@ -146,6 +152,7 @@ p{
 .legsikeresebbalairas td{
     padding-bottom:25px;
     padding-right:20px;
+    transition:ease-in-out 0.3s;
     
     
     
