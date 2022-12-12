@@ -6,3 +6,36 @@ style="position: relative; left: 10px;right: 10px;top: 5px; width: 180px; height
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+
+    .tortenet-p
+    {
+      max-width: 100rem;
+    }
+    .vege-div{
+        border: 70px solid rgb(44, 49, 38);
+    }
+
+    .terkoz{
+        border: 20px solid rgb(44, 49, 38);
+    }
+
+    .mufaj-kep2{
+        width: 400px;
+        height: 250px;
+    }
+
+    .mufaj-kep {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .li-elem {
+        max-width: 100rem;
+        text-align: justify;
+    }
+
+    .vege-div{
+        border: 40px solid rgb(44, 49, 38);
+    }
