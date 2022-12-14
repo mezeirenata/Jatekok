@@ -93,20 +93,24 @@ p{
 
 }
 .h2fooldal{
-    font-size:40px;
-    
+    font-size:50px;
+    padding-right:100px;
+    text-align:center;
 }
 .azoldalrolfooldal{
-    text-align:center;
-    font-size:35px;
 }
 #azoldalrolfooldal{
+    overflow-y:scroll;
+    max-width:750px;
+    padding-left:150px;
+    font-size:50px;
     cursor:default;
     margin-left:25px;
-    color:rgba(255, 255, 255, 0.61);
-    background:rgba(0, 0, 0, 0.336);
-    width:fit-content;
-    text-align:center;
+    color:rgba(255, 255, 255, 0.63);
+    background:rgba(47, 141, 19, 0.336);
+    width:2000px;
+    height:500px;
+    text-align:justify;
     
 }
 .felsoszegely{
@@ -127,7 +131,7 @@ p{
     
 }
 .legsikeresebbalairas{
-    
+    border-radius:2vh;
     display:none;
     border:1px solid rgba(255, 255, 255, 0.148);
     margin-right:13px;
@@ -142,7 +146,7 @@ p{
     padding-top:15px;
     min-width:160px;
     z-index:1;
-    box-shadow:0px 0px 10px 0px rgb(20, 22, 17), 0px 0px 20px 0px black;
+    box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 50px 15px rgb(0, 0, 0);
     transition:ease-in-out 0.3s;
 }
 .legsikeresebbkep:hover .legsikeresebbalairas{
@@ -162,18 +166,17 @@ p{
 }
 .legsikeresebbkep img{
     overflow:hidden;
-    border:5px solid rgb(26, 23, 27);
-    box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 20px 0px rgb(138,26,173);
-    border-radius:100%;
+    border:2px solid rgb(26, 23, 27);
+    box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 50px 15px rgb(0, 0, 0);
+    border-radius:40%;
     transition:ease-in-out 0.3s;
     
     
 }
 .legsikeresebbkep:hover img{
     cursor:pointer;
-    border-radius:1vh;
+    border-radius:2vh;
     transition:ease-in-out 0.3s;
-    width:
     max-width:100%;
     max-height:100%;
 }
@@ -191,4 +194,45 @@ color:white;
 }
 #srtablazat{
     font-size:30px;
+}
+.mufaj-kep2 {
+    width: 400px;
+    height: 250px;
+}
+
+.mufaj-kep {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.li-elem {
+    max-width: 100rem;
+    text-align: justify;
+}
+
+.tortenet-p {
+    max-width: 100rem;
+}
+
+.vege-div {
+    border: 70px solid rgb(44, 49, 38);
+}
+
+.terkoz {
+    border: 20px solid rgb(44, 49, 38);
+}
+.sjh1{
+    text-align:center;
+    font-family: cursive;
+    padding-bottom:25px;
+    font-size:22px;
+    border:3px solid rgb(116, 18, 155);
+    background-color:rgba(0, 0, 0, 0.397);
+    border-radius:5vh;
+}
+.sjh1:hover{
+    border:3px solid rgb(255, 255, 255);
+    font-size:2px;
 }
