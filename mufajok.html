@@ -8,41 +8,7 @@
     <title>Műfajok</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="images/favicon.ico.ico">
-
-    <style>
-        .mufaj-kep {
-            display: none;
-
-        }
-
-        button {
-            background: lightgray;
-            color: black;
-            border-radius: 5px;
-        }
-
-        .flex {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .mufaj-kep2 {
-            border: yellowgreen solid 5px;
-            border-radius: 20px;
-        }
-    </style>
-
-    <script>
-        function showmore(id, button) {
-            let style = document.getElementById(id).style;
-            let show = style.display !== 'block';
-            style.display = show ? 'block' : 'none';
-            button.innerText = show ? 'Mutass kevesebbet' : 'Mutass többet';
-        }
-    </script>
-
+    <script src="addf.js"></script>
 </head>
 
 <body>
@@ -81,7 +47,7 @@
                         játékos az
                         általa irányított figura szemszögéből látja a játékban történteket.
                     </p>
-                    <button type="button" onclick="showmore('1', this)">Mutass többet
+                    <button type="button" onclick="showMore('1', this)">Mutass többet
                     </button>
                     <div class="mufaj-kep" id="1">
                         <div class="flex">
@@ -104,7 +70,7 @@
                         általában
                         fedezékről-fedezékre haladva kell leszámolnia ellenfeleivel.
                     </p>
-                    <button type="button" onclick="showmore('2', this)">Mutass többet
+                    <button type="button" onclick="showMore('2', this)">Mutass többet
                     </button>
                     <div class="mufaj-kep" id="2">
                         <div class="flex">
@@ -124,7 +90,7 @@
                 <p>
                     Klasszikus, 2D-s megjelenítési módot használó játék.
                 </p>
-                <button type="button" onclick="showmore('3', this)">Mutass többet
+                <button type="button" onclick="showMore('3', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="3">
                     <div class="flex">
@@ -153,7 +119,7 @@
                     különböző
                     érméket, kincseket és egyéb gyűjtögetni valókat szedhetünk össze a magasabb pontszám érdekében.
                 </p>
-                <button type="button" onclick="showmore('4', this)">Mutass többet
+                <button type="button" onclick="showMore('4', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="4">
                     <div class="flex">
@@ -173,7 +139,7 @@
                 <h2>Kaland</h2>
                 <p>
                 </p>
-                <button type="button" onclick="showmore('5', this)">Mutass többet
+                <button type="button" onclick="showMore('5', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="5">
                     <div class="flex">
@@ -205,7 +171,7 @@
                     végtelen, de játékonként eltérő lehet. Legismertebbek a World of Warcraft, Lineage I/II, Guild Wars,
                     Roblox.
                 </p>
-                <button type="button" onclick="showmore('6', this)">Mutass többet
+                <button type="button" onclick="showMore('6', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="6">
                     <div class="flex">
@@ -228,7 +194,7 @@
                     barátunkkal
                     vagy random emberrel együtt online vagy akár offline co-op módban (Pl. Diablo 3)
                 </p>
-                <button type="button" onclick="showmore('7', this)">Mutass többet
+                <button type="button" onclick="showMore('7', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="7">
                     <div class="flex">
@@ -259,7 +225,7 @@
                     feladatok az erőforrások összegyűjtése, bázisok építése, technológia fejlesztése és az egységek
                     irányítása.
                 </p>
-                <button type="button" onclick="showmore('8', this)">Mutass többet
+                <button type="button" onclick="showMore('8', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="8">
                     <img class="mufaj-kep2" src="images/RTS.JPG" alt="">
@@ -274,7 +240,7 @@
                 <p>
                     Például: Civilization IV
                 </p>
-                <button type="button" onclick="showmore('10', this)">Mutass többet
+                <button type="button" onclick="showMore('10', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="10">
                     <img class="mufaj-kep2" src="images/valosideju.jpg" alt="">
@@ -318,7 +284,7 @@
             épülő
             Életjátéka.
         </p>
-        <button type="button" onclick="showmore('11', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('11', this)">Mutass többet</button>
         <div class="mufaj-kep" id="11">
             <img class="mufaj-kep2" src="images/menedzselos.jpg" alt="">
         </div>
@@ -346,7 +312,7 @@
         <ul>
             <li>
                 <h2>Autószimulátorok</h2>
-                <button type="button" onclick="showmore('12', this)">Mutass többet
+                <button type="button" onclick="showMore('12', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="12">
                     <img class="mufaj-kep2" src="images/autovezetoszim.jpg" alt="">
@@ -355,7 +321,7 @@
             </li>
             <li>
                 <h2>Vasútszimulátorok</h2>
-                <button type="button" onclick="showmore('13', this)">Mutass többet
+                <button type="button" onclick="showMore('13', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="13">
                     <img class="mufaj-kep2" src="images/vasutszim.jpg" alt="">
@@ -363,7 +329,7 @@
             </li>
             <li>
                 <h2>Repülőgép-szimulátorok</h2>
-                <button type="button" onclick="showmore('14', this)">Mutass többet
+                <button type="button" onclick="showMore('14', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="14">
                     <img class="mufaj-kep2" src="images/repuloszim.jpg" alt="">
@@ -372,7 +338,7 @@
             </li>
             <li>
                 <h2>Tengeralattjáró-szimulátorok</h2>
-                <button type="button" onclick="showmore('15', this)">Mutass többet
+                <button type="button" onclick="showMore('15', this)">Mutass többet
                 </button>
                 <div class="mufaj-kep" id="15">
                     <img class="mufaj-kep2" src="images/tengeralattjarao.jpg" alt="">
@@ -385,21 +351,21 @@
 <ul>
     <li>
         <h2>Sport</h2>
-        <button type="button" onclick="showmore('16', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('16', this)">Mutass többet</button>
         <div class="mufaj-kep" id="16">
             <img class="mufaj-kep2" src="images/sportjatek.jpg" alt="">
         </div>
     </li>
     <li>
         <h2>Lexikális tudás alapú</h2>
-        <button type="button" onclick="showmore('17', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('17', this)">Mutass többet</button>
         <div class="mufaj-kep" id="17">
             <img class="mufaj-kep2" src="images/honfoglalo.jpg" alt="">
         </div>
     </li>
     <li>
         <h2>Szerencsejáték</h2>
-        <button type="button" onclick="showmore('18', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('18', this)">Mutass többet</button>
         <div class="mufaj-kep" id="18">
             <img class="mufaj-kep2" src="images/szerencsejatek.jpg" alt="">
         </div>
@@ -408,7 +374,7 @@
         <h2> Brawl </h2>
         (verekedős játékok pl.: Mortal Kombat)
         <br>
-        <button type="button" onclick="showmore('19', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('19', this)">Mutass többet</button>
         <div class="mufaj-kep" id="19">
             <img class="mufaj-kep2" src="images/mortalkombat.jpg" alt="">
         </div>
@@ -420,7 +386,7 @@
             Lehetnek
             közelvalóságszerűek, vagy speciális effektekkel attól elrugaszkodottak (pl. animált, szétmálló bábuk).
         </p>
-        <button type="button" onclick="showmore('20', this)">Mutass többet</button>
+        <button type="button" onclick="showMore('20', this)">Mutass többet</button>
         <div class="mufaj-kep" id="20">
             <img class="mufaj-kep2" src="images/pummel.jpg" alt="">
         </div>
