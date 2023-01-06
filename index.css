@@ -109,10 +109,10 @@ p{
     
     float:right;
     padding: 10px;
-    border:3px solid greenyellow;
+    border:3px solid blue;
     width:fit-content;
     border-radius:2vh;
-    box-shadow: 0px 0px 10px 0px rgb(6, 255, 18), 0px 0px 20px 0px black;
+    box-shadow: 0px 0px 10px 0px blue, 0px 0px 20px 0px black;
 }
 .tortenetkep img{
     width:265px;
@@ -139,7 +139,7 @@ p{
     margin:auto;
     font-size:40px;
     margin-bottom:50px;
-    border:3px solid yellowgreen;
+    border:3px solid blue;
     background-color:rgba(35, 10, 43, 0.685);
     border-radius:5vh;
     transition:ease-in-out 0.3s;
@@ -167,7 +167,7 @@ p{
     overflow:hidden;
    
     border-radius:100%;
-    border:yellowgreen solid 5px;
+    border:5px solid blue;
     border-radius:20px;
 }
 .legsikeresebbkep img{
@@ -207,7 +207,7 @@ h1{text-align:center;
     margin-top:35px;
     font-size:40px;
     margin-bottom:50px;
-    border:3px solid yellowgreen;
+    border:3px solid blue;
     background-color:rgba(35, 10, 43, 0.685);
     border-radius:5vh;
     transition:ease-in-out 0.3s;
@@ -280,24 +280,43 @@ color:white;
 }
 
 #srsorozat{
+    margin-left:150px;
     font-size:30px;
+    border:6px solid blue;
+    border-radius:5vh;
+    width:fit-content;
+    padding:15px;
+    background-color:rgba(137, 43, 226, 0.065);
 }
-table{
-    border:6px solid yellowgreen;
+
+#srsorozat li{
+    border:2px solid blue;
     overflow:hidden;
     border-radius:5vh;
     background:rgba(0, 0, 0, 0.618);
     margin-left:200px;
-    float:;
+    padding:15px;
+    max-width:300px;
+    text-align:center;
+    margin-top:10px;
+    box-shadow:0px 0px 10px 0px black, 0px 0px 20px 0px black;
+}
+.srtablazat {
+    border:6px solid blue;
+    overflow:hidden;
+    border-radius:5vh;
+    background:rgba(0, 0, 0, 0.618);
+    margin-left:200px;
+   
 }
 .srtablazat td{
     font-size:25px;
     margin-left:200px;
-    border:2px solid yellowgreen;
+    border:2px solid blue;
     padding:10px;
     text-align:center;
 }
-tr:first-child{
+.srtablazat tr:first-child{
     font-weight:bold;
     color:white;
     font-size:30px;
@@ -312,7 +331,7 @@ tr:first-child{
     font-family:cursive;
     padding:15px;
 margin-left:275px;
- border:3px solid yellowgreen;
+ border:3px solid blue;
     background-color:rgba(35, 10, 43, 0.685);
     border-radius:5vh;
     transition:ease-in-out 0.3s;
@@ -329,11 +348,11 @@ margin-left:275px;
 .sriframe1{
     margin-right:350px;
 border-radius:2vh;
-border:3px solid yellowgreen;
-box-shadow:0px 0px 10px 0px yellowgreen, 0px 0px 20px 0px black;
+border:3px solid blue;
+box-shadow:0px 0px 10px 0px blue, 0px 0px 20px 0px black;
 }
 .mufaj-kep2 {
-    border:yellowgreen solid 5px;
+    border:blue solid 5px;
     border-radius:20px;
     transition: ease-in-out 0.3s;
     box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 20px 0px rgb(0, 0, 0);
@@ -393,7 +412,7 @@ li{
     margin:auto;
     font-size:33px;
     margin-bottom:50px;
-    border:3px solid yellowgreen;
+    border:3px solid blue;
     background-color:rgba(35, 10, 43, 0.685);
     border-radius:5vh;
     transition:ease-in-out 0.3s;
