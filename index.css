@@ -41,6 +41,7 @@ body {
     font-weight:bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition:ease-in-out 0.3s;
+    
 }
 
 .focim span{
@@ -69,63 +70,90 @@ body {
     border:3px solid rgba(0, 0, 0, 0);
 
 }
+#azoldalrolfooldal p{
+ font-size:40px;
+ font-family:arial;
+ line-height:50px;
+ margin-left:-65px;
+ 
+
+}
+#azoldalrolfooldal{
+    padding-left:75px;
+    width:950px;
+    color:rgb(47, 196, 47);
+    font-size:35px;
+    cursor:default;
+    margin:auto;
+    
+    text-align:center;
+    margin-bottom:250px;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    border-width:120%;
+    
+}
 p{
-    margin-right:190px;
+    font-family:arial;
+    font-size:30px;
+    background:rgba(0, 0, 0, 0.292);
+    padding:10px;
+    border-radius:5vh;
+    cursor:default;
 }
 .focim a{
     text-decoration:none;
 
 }
 .tortenetkep{
+    
     float:right;
     padding: 10px;
     border:3px solid greenyellow;
-    width:200px;
+    width:fit-content;
+    border-radius:2vh;
+    box-shadow: 0px 0px 10px 0px rgb(6, 255, 18), 0px 0px 20px 0px black;
 }
+.tortenetkep img{
+    width:265px;
+    border-radius:1vh;
+}
+
 .tortenetkepszoveg{
+    font-size:25px;
+    cursor:default;
+    text-align:center;
     position:relative;
     left:10px;
     right: 10px;
     top:5px;
     width:180px;
     height:auto;
-    text-align:center;
+   
 
 }
 .h2fooldal{
-    font-size:60px;
-    margin-left:275px;
-    z-index:-1;
-    margin-bottom:-50px;
-    background-color:rgba(26, 186, 45, 0.411);
-    width:fit-content;
-    border-radius:15vh;
+    text-align:left;
+    font-family:cursive;
     padding:15px;
+    margin:auto;
+    font-size:40px;
+    margin-bottom:50px;
+    border:3px solid yellowgreen;
+    background-color:rgba(35, 10, 43, 0.685);
+    border-radius:5vh;
+    transition:ease-in-out 0.3s;
     cursor:default;
-    color:rgb(255, 255, 255);
-    border:5px solid black;
+    box-shadow:0px 0px 10px 0px rgb(116, 18, 155), 0px 0px 20px 0px rgb(116, 18, 155);
+    width:fit-content;
 }
 .h2fooldal:hover{
-    text-decoration:3px underline;
-    transition:0.3s;
+    border:3px solid rgb(255, 255, 255);
+    font-size:45px;
+    transition:ease-in-out 0.3s;
+    box-shadow:0px 0px 10px 0px rgb(255, 255, 255), 0px 0px 20px 0px rgb(22, 21, 21);
 }
-.azoldalrolfooldal{
-}
-#azoldalrolfooldal{
-    overflow-y:scroll;
-    max-width:750px;
-    padding-left:150px;
-    font-size:50px;
-    cursor:default;
-    margin-left:25px;
-    color:rgba(255, 255, 255, 0.63);
-    background:rgba(23, 19, 141, 0.336);
-    width:2000px;
-    height:500px;
-    text-align:justify;
-    margin-bottom:250px;
-    
-}
+
 .felsoszegely{
     width:102%;
     height:150px;
@@ -137,8 +165,10 @@ p{
     width:400px;
     height:221px;
     overflow:hidden;
-    border:0px solid black;
+   
     border-radius:100%;
+    border:yellowgreen solid 5px;
+    border-radius:20px;
 }
 .legsikeresebbkep img{
     width:100%;
@@ -146,29 +176,51 @@ p{
     background-position:center;
     background-size:cover;
     overflow:hidden;
-    border:2px solid rgb(26, 23, 27);
-    border-radius:100%;
+ 
     
     transition:0.7s;
     
 }
 .legsikeresebbkep img:hover{
-    transform:scale(1.2);
+    transform:scaleX(1);
+    transform:scaleY(1.2);
    
 }
 .legsikeresebbkep{
     box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 50px 15px rgb(0, 0, 0);
     position:relative;
-    border-radius:50%;
+    border-radius:5vh;
     display:inline-block;
     
     font-size:20px;
     transition:ease-in-out 0.3s;
-    margin-left:400px;
+    margin-left:295px;
     margin-bottom:100px;
 
     
     
+}
+h1{text-align:center;
+    font-family:cursive;
+    padding:15px;
+    margin-left:275px;
+    margin-top:35px;
+    font-size:40px;
+    margin-bottom:50px;
+    border:3px solid yellowgreen;
+    background-color:rgba(35, 10, 43, 0.685);
+    border-radius:5vh;
+    transition:ease-in-out 0.3s;
+    cursor:default;
+    box-shadow:0px 0px 10px 0px rgb(116, 18, 155), 0px 0px 20px 0px rgb(116, 18, 155);
+    width:fit-content;
+
+}
+h1:hover{
+    border:3px solid rgb(255, 255, 255);
+    font-size:42px;
+    transition:ease-in-out 0.3s;
+    box-shadow:0px 0px 10px 0px rgb(255, 255, 255), 0px 0px 20px 0px rgb(22, 21, 21);
 }
 .legsikeresebbalairas{
     border-radius:2vh;
@@ -226,14 +278,70 @@ color:white;
     margin-right:-70px;
     margin-top:-20px;
 }
-#srtablazat{
+
+#srsorozat{
     font-size:30px;
+}
+table{
+    border:6px solid yellowgreen;
+    overflow:hidden;
+    border-radius:5vh;
+    background:rgba(0, 0, 0, 0.618);
+    margin-left:200px;
+    float:;
+}
+.srtablazat td{
+    font-size:25px;
+    margin-left:200px;
+    border:2px solid yellowgreen;
+    padding:10px;
+    text-align:center;
+}
+tr:first-child{
+    font-weight:bold;
+    color:white;
+    font-size:30px;
+    box-shadow:0px 0px 50px 0px rgb(44, 4, 59), 0px 0px 20px 0px black;
+    
+}   
+
+.srh2{
+    margin-top:45px;
+    font-size:35px;
+    text-align:center;
+    font-family:cursive;
+    padding:15px;
+margin-left:275px;
+ border:3px solid yellowgreen;
+    background-color:rgba(35, 10, 43, 0.685);
+    border-radius:5vh;
+    transition:ease-in-out 0.3s;
+ box-shadow:0px 0px 10px 0px rgb(116, 18, 155), 0px 0px 20px 0px rgb(116, 18, 155);
+    width:fit-content;
+}
+.srh2:hover{
+    cursor:default;
+    border:3px solid rgb(255, 255, 255);
+    font-size:42px;
+    transition:ease-in-out 0.3s;
+    box-shadow:0px 0px 10px 0px rgb(255, 255, 255), 0px 0px 20px 0px rgb(22, 21, 21);
+}
+.sriframe1{
+    margin-right:350px;
+border-radius:2vh;
+border:3px solid yellowgreen;
+box-shadow:0px 0px 10px 0px yellowgreen, 0px 0px 20px 0px black;
 }
 .mufaj-kep2 {
     border:yellowgreen solid 5px;
     border-radius:20px;
+    transition: ease-in-out 0.3s;
+    box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 20px 0px rgb(0, 0, 0);
 }
-
+.mufaj-kep2:hover {
+    transform:scale(1.1);
+    transition: ease-in-out 0.3s;
+}
 .mufaj-kep {
    display:none;}
 
@@ -246,6 +354,7 @@ button{
     color:rgb(248, 248, 248);
     border-radius:5px;
     font-size:20px;
+    box-shadow:0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 5px 0px rgb(0, 0, 0);
 }
 
 .flex{
@@ -256,8 +365,18 @@ button{
 }
 
 
+li{
+    margin-left:100px;
+    border:none;
+}
 .tortenet-p {
-    max-width: 100rem;
+    max-width: 75%;
+    font-size:25px;
+    margin-left:50px;
+    cursor:default;
+    background:rgba(0, 0, 0, 0.292);
+    padding:10px;
+    border-radius:5vh;
 }
 
 .vege-div {
@@ -274,8 +393,8 @@ button{
     margin:auto;
     font-size:33px;
     margin-bottom:50px;
-    border:3px solid rgb(230, 18, 124);
-    background-color:rgba(77, 23, 94, 0.685);
+    border:3px solid yellowgreen;
+    background-color:rgba(35, 10, 43, 0.685);
     border-radius:5vh;
     transition:ease-in-out 0.3s;
     cursor:default;
